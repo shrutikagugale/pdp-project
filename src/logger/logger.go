@@ -29,7 +29,7 @@ func Init(config *LoggerConfig) bool {
 	//log.SetFlags(log.Lshortfile | log.Ldate | log.Ltime)
 	l.Println("Logger initialized successfully.")
 	//TODO
-	return true
+	return false
 }
 
 func llog(format string, v ...interface{}) {
